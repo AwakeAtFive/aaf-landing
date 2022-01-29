@@ -1,0 +1,126 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  text-align: center;
+  font-size: 1em;
+}
+
+.nav-core {
+  color: black;
+  padding: 25px 45px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.nav-core div {
+  padding: 0px 6px;
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  vertical-align: middle;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.nav-left-el {
+  font-weight: 800;
+  font-size: 1.5em;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.nav-right-el {
+  flex-direction: row;
+  gap: 1.5em;
+}
+
+.nav-right-el div a {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+/* HERO COMPONENT */
+
+.hero-container {
+  margin-top: 5em;
+  margin-bottom: 0em;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.hero-container h1 {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-container h3 {
+  opacity: 80;
+}
+
+.hero-row {
+  overflow: hidden;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 0;
+  display: grid;
+
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px; 
+  column-gap: 30px;
+  row-gap: 30px;
+
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.project {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  border-radius: 12px;
+  height: 250px;
+  width: 250px;
+  content: '';
+}
+
+.project img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
