@@ -1,8 +1,8 @@
-[delba.dev](https://awakeatfive.com)
+[awakeatfive.com](https://awakeatfive.com)
 
 ### AwakeAtFive Landing Page
 
 Built with:
 - 🌐 Preact
 - ⚡️ Vite Toolkit 
-- 📦️ NextUI
+- 📦️ No CSS Libraries
